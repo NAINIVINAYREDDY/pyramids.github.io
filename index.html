@@ -1,0 +1,49 @@
+<!DOCTYPE >
+<html>
+    <head>
+        <title>Three Pyramids</title>
+
+        <style>
+            body{
+                background-color:green;
+                margin-top: 100px;
+            }
+
+            #pyramid{
+                position: relative;
+                left: 500px;
+                z-index: 2;
+                width: 0px;
+                border-left: 300px dotted transparent;
+                border-right: 300px solid transparent;
+                border-bottom: 100px solid red;
+            }
+            #second-pyramid{
+                position: relative;
+                left: 500px;
+                top: -15px;
+                z-index: 1;
+                width: 0px;
+                border-left: 300px dotted transparent;
+                border-right: 300px solid transparent;
+                border-bottom: 100px solid burlywood;
+            }
+            #third-pyramid{
+                position: relative;
+                left: 500px;
+                z-index: 0;
+                top: -30px;
+                width:0px;
+                border-left: 300px dotted transparent;
+                border-right: 300px solid transparent;
+                border-bottom: 100px solid blue; 
+            }
+        </style>
+    </head>
+    <body>
+
+        <div id=pyramid>  </div>
+        <div id=second-pyramid></div>
+        <div id=third-pyramid></div>
+    </body>
+</html>
